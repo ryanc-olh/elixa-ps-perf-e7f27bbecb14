@@ -47,7 +47,7 @@
 <body>
 <div class="wrap">
   <h1>Elixa — Patient Support Performance</h1>
-  <div class="sub">Aug 6–12, 2026 · Voice · Email · Elixa · Central Time · <b>page rebuilt 5:35pm CDT</b></div>
+  <div class="sub">Aug 6–12, 2026 · Voice · Email · Elixa · Central Time · <b>page rebuilt 7:46pm CDT</b></div>
   
   <div id="pane-sum">
 
@@ -55,8 +55,8 @@
   <div class="note" style="margin:-8px 0 12px;">Preliminary — feeds refresh at different rates, so each tile shows its own "as of" time.</div>
   <div class="grid kpis">
     <div class="card"><div class="k">Voice — calls</div><div class="v" id="tvV">27</div><div class="n" id="tvVn">as of ~1:30p CT</div></div>
-    <div class="card"><div class="k">Email — received</div><div class="v">24</div><div class="n">as of ~4:30p CT</div></div>
-    <div class="card"><div class="k">Email — open backlog</div><div class="v">107</div><div class="n">as of ~4:30p CT</div></div>
+    <div class="card"><div class="k">Email — received</div><div class="v">26</div><div class="n">as of ~6p CT</div></div>
+    <div class="card"><div class="k">Email — open backlog</div><div class="v">109</div><div class="n">as of ~6p CT</div></div>
     
   </div>
 
@@ -87,9 +87,9 @@
     <div><div class="lbl" style="margin-top:0;">Inbound Volume by Day</div><div class="cbox"><canvas id="c1"></canvas></div></div>
     <div><div class="lbl" style="margin-top:0;">Answered ≤30s by Day (Target 80%)</div><div class="cbox"><canvas id="c2"></canvas></div></div>
   </div>
-  <div class="note">* Thu Aug 13 (amber) is a partial day — data received so far (voice feed current to ~1:30p CT, email to ~4:30p CT); not comparable to the full days and excluded from the Aug 6–12 total.</div>
+  <div class="note">* Thu Aug 13 (amber) is a partial day — data received so far (voice feed current to ~1:30p CT, email to ~6p CT); not comparable to the full days and excluded from the Aug 6–12 total.</div>
 
-  <div class="sec">Email <span style="font-weight:400;color:var(--mut);font-size:12px;">· updated through ~4:30p CT</span></div>
+  <div class="sec">Email <span style="font-weight:400;color:var(--mut);font-size:12px;">· updated through ~6p CT</span></div>
   <div class="note" style="margin:-2px 0 8px;">Received &amp; Resolved reflect <b>patient messages only</b> — automated notifications, marketing, vendor, and system email are excluded (classified from message content).</div>
   <div class="grid kpis">
     <div class="card"><div class="k">Received</div><div class="v">311</div><div class="n">Aug 6–12</div></div>
@@ -109,10 +109,10 @@
       <tr><td>Tue 8/11</td><td>36</td><td>61</td><td class="grn">-25</td><td class="amb">65%</td></tr>
       <tr><td>Wed 8/12</td><td>30</td><td>40</td><td class="grn">-10</td><td class="red">31%</td></tr>
       <tr class="tot"><td>Aug 6–12</td><td>311</td><td>367</td><td>-56</td><td class="red">29%</td></tr>
-      <tr class="amb"><td>Thu 8/13*</td><td>24</td><td>30</td><td>-6</td><td>—</td></tr>
+      <tr class="amb"><td>Thu 8/13*</td><td>26</td><td>30</td><td>-4</td><td>—</td></tr>
     </tbody>
   </table>
-  <div class="note">* Thu Aug 13 (amber) is partial — received/resolved so far (email feed to ~4:30p CT); excluded from the Aug 6–12 total.</div>
+  <div class="note">* Thu Aug 13 (amber) is partial — received/resolved so far (email feed to ~6p CT); excluded from the Aug 6–12 total.</div>
 
   
 
@@ -177,7 +177,7 @@
   window.C2=new Chart(document.getElementById('c2'),{type:'line',data:{labels:days7,datasets:[{label:'SLA %',data:[14,21,71,82,51,66,57,67],borderColor:'#2a78d6',backgroundColor:'#2a78d6',borderWidth:2,tension:0.25,pointRadius:3,pointBackgroundColor:wkBlue,pointBorderColor:wkBlue},{label:'Target 80%',data:[80,80,80,80,80,80,80,80],borderColor:'#e34948',borderWidth:1.5,borderDash:[6,4],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{min:0,max:110,grid:{color:grid},ticks:{stepSize:20,color:mut,font:{size:11},callback:function(v){return v>100?'':v+'%';}}}}}});
   var Z=function(){return [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];};
   var VOFF={'8/6':[1,0,0,0,0,1,1,4,12,15,9,6,16,6,11,8,6,7,4,2,1,1,0,3],'8/7':[0,0,0,0,0,1,0,1,5,7,8,12,11,5,9,9,5,7,4,4,4,0,2,0],'8/8':[0,0,1,1,0,0,0,0,2,4,3,5,9,3,8,3,1,4,2,0,1,0,1,0],'8/9':[1,1,0,0,0,1,0,2,2,2,5,3,3,3,2,1,1,2,2,0,0,0,0,0],'8/10':[0,0,0,0,0,2,0,3,1,9,3,7,7,8,4,1,4,1,4,1,1,0,2,0],'8/11':[0,0,0,0,0,0,0,1,1,5,6,7,9,3,2,5,6,0,0,4,1,1,0,0],'8/12':[0,0,0,0,0,0,1,3,1,2,7,9,6,2,6,5,5,0,4,2,1,2,0,0],'8/13':[0,0,0,1,0,0,1,3,5,2,3,7,3,2,0,0,0,0,0,0,0,0,0,0]};
-  var EREC={'8/6':[0,0,0,2,1,0,4,6,1,5,5,5,7,5,3,2,3,2,3,1,0,1,2,0],'8/7':[0,1,0,0,0,3,5,1,2,5,7,2,2,4,1,6,1,1,1,0,1,1,1,1],'8/8':[0,0,2,0,1,4,1,1,2,3,0,3,11,4,1,16,2,1,1,1,2,0,2,0],'8/9':[0,0,2,1,1,1,5,0,6,0,1,2,0,2,2,1,0,3,2,2,1,0,0,0],'8/10':[0,1,1,1,1,0,4,6,8,6,3,6,4,1,2,2,1,0,1,0,1,2,0,0],'8/11':[0,0,0,2,0,1,1,4,2,3,1,3,1,1,7,2,0,0,2,2,2,2,0,0],'8/12':[0,0,0,0,0,1,0,3,2,2,5,6,1,1,0,1,2,1,0,2,1,1,1,0],'8/13':[0,0,0,1,1,1,1,2,2,2,2,1,4,5,2,0,0,0,0,0,0,0,0,0]};
+  var EREC={'8/6':[0,0,0,2,1,0,4,6,1,5,5,5,7,5,3,2,3,2,3,1,0,1,2,0],'8/7':[0,1,0,0,0,3,5,1,2,5,7,2,2,4,1,6,1,1,1,0,1,1,1,1],'8/8':[0,0,2,0,1,4,1,1,2,3,0,3,11,4,1,16,2,1,1,1,2,0,2,0],'8/9':[0,0,2,1,1,1,5,0,6,0,1,2,0,2,2,1,0,3,2,2,1,0,0,0],'8/10':[0,1,1,1,1,0,4,6,8,6,3,6,4,1,2,2,1,0,1,0,1,2,0,0],'8/11':[0,0,0,2,0,1,1,4,2,3,1,3,1,1,7,2,0,0,2,2,2,2,0,0],'8/12':[0,0,0,0,0,1,0,3,2,2,5,6,1,1,0,1,2,1,0,2,1,1,1,0],'8/13':[0,0,0,1,1,1,1,2,2,2,2,1,4,5,2,1,1,0,0,0,0,0,0,0]};
   var ECLO={'8/6':[1,0,2,0,1,5,0,2,1,3,0,4,1,1,4,1,2,3,1,0,1,1,1,1],'8/7':[2,6,1,1,0,3,0,6,10,2,0,0,2,4,2,4,4,3,4,1,5,1,1,1],'8/8':[0,1,0,0,2,2,4,7,7,4,5,1,2,0,1,0,19,2,11,7,1,1,0,1],'8/9':[0,0,0,2,1,0,2,5,4,2,0,0,2,2,0,0,0,0,1,0,1,0,0,2],'8/10':[0,2,1,0,0,2,2,1,1,1,2,4,6,6,9,9,8,4,0,1,2,1,3,0],'8/11':[2,1,0,1,0,1,3,4,5,5,6,0,6,3,11,4,2,3,0,0,0,2,1,1],'8/12':[0,2,0,0,0,1,2,3,2,0,1,0,2,0,7,4,2,2,6,1,1,0,2,2],'8/13':[1,2,2,0,0,0,1,15,2,3,1,1,0,0,2,0,0,0,0,0,0,0,0,0]};
   var hrs=[]; for(var h=0;h<24;h++){hrs.push((h%12===0?12:h%12)+(h<12?'a':'p'));}
   var sum=function(a){return a.reduce(function(x,y){return x+y;},0);};
@@ -190,6 +190,21 @@
   daySel.addEventListener('change',function(){render(daySel.value);});
   render(daySel.value);
   
+  /* Live hook for the 5-minute Connect feed. VOFF / VANS / render / renderHr are all closure-scoped in
+     HERE, so the feed patcher (a separate IIFE below) cannot see them — which is why its first version
+     silently did nothing: it tested window.VOFF, which is undefined. Exposing ONE function keeps this
+     scope intact instead of leaking four globals, and keeps the row format in the file that defines it.
+     Placed after  so renderHr/VANS exist. Redraws only if the user is looking at that day. */
+  window.__patchHour=function(k,rows){
+    try{
+      if(!k||!rows||!rows.length) return;
+      VOFF[k]=rows.map(function(r){return (r&&r[4])||0;});   /* [4] = inbound arrived, as VOFF expects */
+      if(typeof VANS!=='undefined'&&VANS) VANS[k]=rows;      /* 6th element (sab) is ignored by 5-col mirror rows */
+      if(daySel&&daySel.value===k) render(k);
+      var hs=document.getElementById('hds'),pane=document.getElementById('pane-hr');
+      if(hs&&hs.value===k&&pane&&pane.style.display!=='none'&&typeof renderHr==='function') renderHr(k);
+    }catch(e){}
+  };
 })();
 </script>
 
@@ -203,10 +218,16 @@
    Fails silent: if the feed is missing, broken or stale the build-time numbers stand. A wrong-but-fresh
    number is worse than a right-but-4-hours-old one on a client-facing page. */
 (function(){
-  /* DISABLED 2026-08-13 pending fixes — see build_dashboards.AWS_CLIENT_FEED for the defect list.
-     Set PATCH_ON=true only when the feed is client-checked and the outbound/callback/timezone defects
-     are resolved. Left in place rather than deleted so the wiring is not lost. */
-  var PATCH_ON = false;
+  /* ENABLED 2026-08-13. The three defects this was gated on are fixed and verified in code, not assumed:
+       outbound  pull_client_aws builds allq = live + callback queues only, so the outbound DID is in no
+                 metric (it was inflating Answered above Inbound Volume).
+       callback  VOL_METRICS runs on allq but SL_METRICS runs on `live` alone, so callbacks count as
+                 volume and are excluded from SL and ASA — a callback's queue time is time-to-ring-back.
+       timezone  every bound is built with ZoneInfo("America/Chicago") and buckets are read through
+                 _iv(), which converts AWS's MetricInterval instead of string-slicing it.
+     Guarded by EXPECT_CLIENT (a group repo holds one feed for several pages), a BUILT_FOR date check and
+     STALE_MIN. Fails silent: a wrong-but-fresh number is worse than a right-but-4-hours-old one. */
+  var PATCH_ON = true;
   var EXPECT_CLIENT = 'elixa';   /* guard: a group repo holds ONE feed for several pages */
   var STALE_MIN = 20;
   var BUILT_FOR = '2026-08-13';   // the day this page was rendered for                       // feed older than this -> leave the built numbers alone
@@ -259,21 +280,12 @@
         }
       }catch(e){}
 
-      /* Today's column of the hourly drill-down. VOFF drives the by-hour volume chart and VANS the
-         hourly table; both are keyed M/D. Only today is replaced — closed days are immutable. */
-      try{
-        var hv=f.hourly_voice&&f.hourly_voice[f.today_iso];
-        if(hv&&k){
-          if(window.VOFF) VOFF[k]=hv.map(function(r){return (r&&r[4])||0;});
-          if(window.VANS) VANS[k]=hv;
-          /* if the picker is on today, redraw the hour chart in place */
-          var sel=document.getElementById('dsel');
-          if(window.cv&&(!sel||sel.value===k)&&window.VOFF&&VOFF[k]){
-            cv.data.datasets[0].data=VOFF[k]; cv.update('none');
-          }
-          if(typeof window.renderHourly==='function'&&(!sel||sel.value===k)) renderHourly(sel?sel.value:k);
-        }
-      }catch(e){}
+      /* Today's column of the hourly drill-down, through the hook the chart IIFE exposes. The previous
+         version reached for window.VOFF / window.cv / a 'dsel' element and a renderHourly() function —
+         none of which exist (the real names are closure-scoped VOFF/cv, 'daySel'/'hds' and renderHr),
+         so it was a silent no-op that a mocked test still passed. */
+      var hv=f.hourly_voice&&f.hourly_voice[f.today_iso];
+      if(hv&&k&&typeof window.__patchHour==='function') window.__patchHour(k,hv);
       /* Absolute time, not just "3m ago": the page's other stamps are absolute Central, and a
          relative age is ambiguous on a page that is also 4-hourly built. Falls back to the relative
          form if the server did not send a formatted time. */
