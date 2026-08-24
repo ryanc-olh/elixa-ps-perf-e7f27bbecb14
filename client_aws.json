@@ -1,14 +1,14 @@
 {
  "client": "elixa",
- "generated_at": "2026-08-23T22:27:56-05:00",
- "generated_at_ct": "10:27pm",
+ "generated_at": "2026-08-24T01:21:58-05:00",
+ "generated_at_ct": "1:21am",
  "window": {
-  "start": "2026-08-16",
-  "end": "2026-08-22"
+  "start": "2026-08-17",
+  "end": "2026-08-23"
  },
  "sl_secs": 30,
- "today_mdk": "8/23",
- "today_iso": "2026-08-23",
+ "today_mdk": "8/24",
+ "today_iso": "2026-08-24",
  "source": "amazon-connect-api",
  "attribution": {
   "basis": "queue",
