@@ -1,7 +1,7 @@
 {
  "client": "elixa",
- "generated_at": "2026-08-24T13:32:42-05:00",
- "generated_at_ct": "1:32pm",
+ "generated_at": "2026-08-24T17:34:15-05:00",
+ "generated_at_ct": "5:34pm",
  "window": {
   "start": "2026-08-17",
   "end": "2026-08-23"
@@ -118,16 +118,16 @@
   },
   "today": {
    "offered": 0,
-   "answered": 1,
+   "answered": 2,
    "offered_live": 0,
-   "answered_live": 1,
+   "answered_live": 2,
    "answered_in_sl": 0,
    "short_abandoned": 0,
    "sl_den": 0,
    "sl": null,
    "sl_answered_only": null,
    "asa_s": null,
-   "aht_s": 230.8
+   "aht_s": 139.4
   }
  },
  "hourly_voice": {
@@ -904,10 +904,10 @@
     0
    ],
    [
+    1,
     0,
     0,
-    0,
-    0,
+    1,
     0,
     0,
     0
@@ -1005,9 +1005,9 @@
   ]
  },
  "email_live": {
-  "rec": 4,
-  "clo": null,
-  "asof_ct": "1:24pm"
+  "rec": 10,
+  "clo": 2,
+  "asof_ct": "5:24pm"
  },
  "errors": [],
  "ok": true
