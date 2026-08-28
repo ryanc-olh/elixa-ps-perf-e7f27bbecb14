@@ -1,14 +1,14 @@
 {
  "client": "elixa",
- "generated_at": "2026-08-27T21:33:28-05:00",
- "generated_at_ct": "9:33pm",
+ "generated_at": "2026-08-28T01:33:52-05:00",
+ "generated_at_ct": "1:33am",
  "window": {
-  "start": "2026-08-20",
-  "end": "2026-08-26"
+  "start": "2026-08-21",
+  "end": "2026-08-27"
  },
  "sl_secs": 30,
- "today_mdk": "8/27",
- "today_iso": "2026-08-27",
+ "today_mdk": "8/28",
+ "today_iso": "2026-08-28",
  "source": "amazon-connect-api",
  "attribution": {
   "basis": "queue",
@@ -24,19 +24,6 @@
  },
  "voice": {
   "days": {
-   "2026-08-13": {
-    "offered": 0,
-    "answered": 1,
-    "offered_live": 0,
-    "answered_live": 1,
-    "answered_in_sl": 0,
-    "short_abandoned": 0,
-    "sl_den": 0,
-    "sl": null,
-    "sl_answered_only": null,
-    "asa_s": null,
-    "aht_s": 150.5
-   },
    "2026-08-14": {
     "offered": 0,
     "answered": 2,
@@ -114,241 +101,36 @@
     "sl_answered_only": null,
     "asa_s": null,
     "aht_s": 66.6
+   },
+   "2026-08-27": {
+    "offered": 0,
+    "answered": 1,
+    "offered_live": 0,
+    "answered_live": 1,
+    "answered_in_sl": 0,
+    "short_abandoned": 0,
+    "sl_den": 0,
+    "sl": null,
+    "sl_answered_only": null,
+    "asa_s": null,
+    "aht_s": 96.0
    }
   },
   "today": {
    "offered": 0,
-   "answered": 1,
+   "answered": 0,
    "offered_live": 0,
-   "answered_live": 1,
+   "answered_live": 0,
    "answered_in_sl": 0,
    "short_abandoned": 0,
    "sl_den": 0,
    "sl": null,
    "sl_answered_only": null,
    "asa_s": null,
-   "aht_s": 96.0
+   "aht_s": null
   }
  },
  "hourly_voice": {
-  "2026-08-20": [
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    2,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ]
-  ],
   "2026-08-24": [
    [
     0,
@@ -1003,11 +785,6 @@
     0
    ]
   ]
- },
- "email_live": {
-  "rec": 24,
-  "clo": 1,
-  "asof_ct": "9:24pm"
  },
  "errors": [],
  "ok": true
