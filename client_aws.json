@@ -1,14 +1,14 @@
 {
  "client": "elixa",
- "generated_at": "2026-08-30T21:37:04-05:00",
- "generated_at_ct": "9:37pm",
+ "generated_at": "2026-08-31T01:21:52-05:00",
+ "generated_at_ct": "1:21am",
  "window": {
-  "start": "2026-08-23",
-  "end": "2026-08-29"
+  "start": "2026-08-24",
+  "end": "2026-08-30"
  },
  "sl_secs": 30,
- "today_mdk": "8/30",
- "today_iso": "2026-08-30",
+ "today_mdk": "8/31",
+ "today_iso": "2026-08-31",
  "source": "amazon-connect-api",
  "attribution": {
   "basis": "queue",
@@ -1003,11 +1003,6 @@
     0
    ]
   ]
- },
- "email_live": {
-  "rec": 19,
-  "clo": 11,
-  "asof_ct": "9:34pm"
  },
  "errors": [],
  "ok": true
