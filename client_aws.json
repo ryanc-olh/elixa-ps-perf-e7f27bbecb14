@@ -1,14 +1,14 @@
 {
  "client": "elixa",
- "generated_at": "2026-09-01T21:42:08-05:00",
- "generated_at_ct": "9:42pm",
+ "generated_at": "2026-09-02T01:27:31-05:00",
+ "generated_at_ct": "1:27am",
  "window": {
-  "start": "2026-08-25",
-  "end": "2026-08-31"
+  "start": "2026-08-26",
+  "end": "2026-09-01"
  },
  "sl_secs": 30,
- "today_mdk": "9/1",
- "today_iso": "2026-09-01",
+ "today_mdk": "9/2",
+ "today_iso": "2026-09-02",
  "source": "amazon-connect-api",
  "attribution": {
   "basis": "queue",
@@ -24,19 +24,6 @@
  },
  "voice": {
   "days": {
-   "2026-08-18": {
-    "offered": 0,
-    "answered": 4,
-    "offered_live": 0,
-    "answered_live": 4,
-    "answered_in_sl": 0,
-    "short_abandoned": 0,
-    "sl_den": 0,
-    "sl": null,
-    "sl_answered_only": null,
-    "asa_s": null,
-    "aht_s": 111.8
-   },
    "2026-08-19": {
     "offered": 0,
     "answered": 2,
@@ -127,20 +114,33 @@
     "sl_answered_only": null,
     "asa_s": null,
     "aht_s": 9.0
+   },
+   "2026-09-01": {
+    "offered": 0,
+    "answered": 1,
+    "offered_live": 0,
+    "answered_live": 1,
+    "answered_in_sl": 0,
+    "short_abandoned": 0,
+    "sl_den": 0,
+    "sl": null,
+    "sl_answered_only": null,
+    "asa_s": null,
+    "aht_s": 41.2
    }
   },
   "today": {
    "offered": 0,
-   "answered": 1,
+   "answered": 0,
    "offered_live": 0,
-   "answered_live": 1,
+   "answered_live": 0,
    "answered_in_sl": 0,
    "short_abandoned": 0,
    "sl_den": 0,
    "sl": null,
    "sl_answered_only": null,
    "asa_s": null,
-   "aht_s": 41.2
+   "aht_s": null
   }
  },
  "hourly_voice": {
@@ -1234,11 +1234,6 @@
     0
    ]
   ]
- },
- "email_live": {
-  "rec": 26,
-  "clo": 19,
-  "asof_ct": "9:39pm"
  },
  "errors": [],
  "ok": true
