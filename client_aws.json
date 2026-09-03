@@ -1,7 +1,7 @@
 {
  "client": "elixa",
- "generated_at": "2026-09-03T09:58:16-05:00",
- "generated_at_ct": "9:58am",
+ "generated_at": "2026-09-03T13:52:47-05:00",
+ "generated_at_ct": "1:52pm",
  "window": {
   "start": "2026-08-27",
   "end": "2026-09-02"
@@ -1236,9 +1236,9 @@
   ]
  },
  "email_live": {
-  "rec": 3,
+  "rec": 8,
   "clo": 9,
-  "asof_ct": "9:49am"
+  "asof_ct": "1:48pm"
  },
  "errors": [],
  "ok": true
