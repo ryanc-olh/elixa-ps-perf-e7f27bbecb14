@@ -1,14 +1,14 @@
 {
  "client": "elixa",
- "generated_at": "2026-09-09T21:39:40-05:00",
- "generated_at_ct": "9:39pm",
+ "generated_at": "2026-09-10T02:01:04-05:00",
+ "generated_at_ct": "2:01am",
  "window": {
-  "start": "2026-09-02",
-  "end": "2026-09-08"
+  "start": "2026-09-03",
+  "end": "2026-09-09"
  },
  "sl_secs": 30,
- "today_mdk": "9/9",
- "today_iso": "2026-09-09",
+ "today_mdk": "9/10",
+ "today_iso": "2026-09-10",
  "source": "amazon-connect-api",
  "attribution": {
   "basis": "queue",
@@ -24,19 +24,6 @@
  },
  "voice": {
   "days": {
-   "2026-08-26": {
-    "offered": 0,
-    "answered": 2,
-    "offered_live": 0,
-    "answered_live": 2,
-    "answered_in_sl": 0,
-    "short_abandoned": 0,
-    "sl_den": 0,
-    "sl": null,
-    "sl_answered_only": null,
-    "asa_s": null,
-    "aht_s": 66.6
-   },
    "2026-08-27": {
     "offered": 0,
     "answered": 1,
@@ -166,241 +153,36 @@
     "sl_answered_only": null,
     "asa_s": null,
     "aht_s": 33.6
+   },
+   "2026-09-09": {
+    "offered": 0,
+    "answered": 2,
+    "offered_live": 0,
+    "answered_live": 2,
+    "answered_in_sl": 0,
+    "short_abandoned": 0,
+    "sl_den": 0,
+    "sl": null,
+    "sl_answered_only": null,
+    "asa_s": null,
+    "aht_s": 86.6
    }
   },
   "today": {
    "offered": 0,
-   "answered": 2,
+   "answered": 0,
    "offered_live": 0,
-   "answered_live": 2,
+   "answered_live": 0,
    "answered_in_sl": 0,
    "short_abandoned": 0,
    "sl_den": 0,
    "sl": null,
    "sl_answered_only": null,
    "asa_s": null,
-   "aht_s": 86.6
+   "aht_s": null
   }
  },
  "hourly_voice": {
-  "2026-09-02": [
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ]
-  ],
   "2026-09-03": [
    [
     0,
@@ -1709,11 +1491,6 @@
     0
    ]
   ]
- },
- "email_live": {
-  "rec": 16,
-  "clo": 10,
-  "asof_ct": "9:34pm"
  },
  "errors": [],
  "ok": true
